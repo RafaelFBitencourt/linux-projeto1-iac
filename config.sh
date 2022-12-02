@@ -18,17 +18,17 @@ groupadd GRP_SEC
 echo " Grupos criados!! "
 echo " Criando Usuários... "
 
-useradd carlos -m -s /bin/bash -p $(openssl passwd -crypt senha1) -G GRP_ADM
-useradd maria -m -s /bin/bash -p $(openssl passwd -crypt senha2) -G GRP_ADM
-useradd joao -m -s /bin/bash -p $(openssl passwd -crypt senha3) -G GRP_ADM
+useradd carlos -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_ADM
+useradd maria -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_ADM
+useradd joao -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_ADM
 
-useradd debora -m -s /bin/bash -p $(openssl passwd -crypt senha4) -G GRP_VEN
-useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt senha5) -G GRP_VEN
-useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt senha6) -G GRP_VEN
+useradd debora -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_VEN
+useradd sebastiana -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_VEN
+useradd roberto -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_VEN
 
-useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt senha7) -G GRP_SEC
-useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt senha8) -G GRP_SEC
-useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt senha9) -G GRP_SEC
+useradd josefina -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_SEC
+useradd amanda -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_SEC
+useradd rogerio -m -s /bin/bash -p $(openssl passwd  senha1) -G GRP_SEC
 
 echo " Usuários criados e atribuidos a seus grupos!! "
 
